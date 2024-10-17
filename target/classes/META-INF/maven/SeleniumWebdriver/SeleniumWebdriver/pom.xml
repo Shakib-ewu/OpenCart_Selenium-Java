@@ -3,6 +3,7 @@
   <groupId>SeleniumWebdriver</groupId>
   <artifactId>SeleniumWebdriver</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+<<<<<<< HEAD
   
   <dependencies>
 	  
@@ -92,4 +93,6 @@
 
   	</dependencies>
   </dependencyManagement>
+=======
+>>>>>>> e772c1628ccb42c90e94032c871bec5cd9505bef
 </project>
