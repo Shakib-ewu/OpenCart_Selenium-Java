@@ -12,6 +12,7 @@ import BaseClass.Base;
 public class Search extends Base{
 	
 	WebDriver driver;
+	Base base;
 	@AfterMethod
     public void tearDown() {
         driver.quit();
@@ -19,13 +20,15 @@ public class Search extends Base{
 
     @BeforeMethod
     public void setup() {
-        driver = initializeBrowserandOpenURL("edge");
+    	base = new Base();
+    	driver = base.initializeBrowserAndOpenURL(); 
         // text() is used to target the text content inside an element (e.g., text()='My Account')
         
     }
     
     
-    @Test(priority = 1)
+
+	@Test(priority = 1)
     public void verifySearchFieldValidInputs() {
         driver.findElement(By.name("search")).sendKeys("HP");
         driver.findElement(By.xpath("//button[@class='btn btn-default btn-lg']")).click();        

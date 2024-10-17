@@ -29,7 +29,7 @@ public class LinksCount {
 	        
 
 	        // Close the browser
-	        //driver.close();
+	        driver.close();
 	    }
 
 	}

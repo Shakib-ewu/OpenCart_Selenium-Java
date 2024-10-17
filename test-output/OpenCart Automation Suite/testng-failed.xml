@@ -3,11 +3,20 @@
 <suite name="Failed suite [OpenCart Automation Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="OpenCart Test Cases(failed)">
     <classes>
+      <class name="AllTests.Search">
+        <methods>
+          <include name="verifySearchFieldInvalidInputs"/>
+          <include name="verifySearchFieldNullInputs"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifySearchFieldValidInputs"/>
+        </methods>
+      </class> <!-- AllTests.Search -->
       <class name="AllTests.RegisterAuth">
         <methods>
           <include name="verifyRegisterWithMandatoryFields"/>
-          <include name="verifyRegisterLoginWithExistingEmail"/>
           <include name="verifyRegisterAccWithoutAnyDetails"/>
+          <include name="verifyRegisterLoginWithExistingEmail"/>
           <include name="verifyLoginWithAllFields"/>
           <include name="setup"/>
           <include name="tearDown"/>

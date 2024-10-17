@@ -1,49 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-14T14:26:21 BDT" name="Default suite" finished-at="2024-10-14T14:26:30 BDT" duration-ms="8666">
+  <suite started-at="2024-10-16T13:52:22 BDT" name="OpenCart Automation Suite" finished-at="2024-10-16T13:52:52 BDT" duration-ms="29813">
     <groups>
     </groups>
-    <test started-at="2024-10-14T14:26:21 BDT" name="Default test" finished-at="2024-10-14T14:26:30 BDT" duration-ms="8666">
-      <class name="AllTests.Search">
-        <test-method is-config="true" signature="setup()[pri:0, instance:AllTests.Search@623a8092]" started-at="2024-10-14T14:26:21 BDT" name="setup" finished-at="2024-10-14T14:26:25 BDT" duration-ms="3568" status="PASS">
+    <test started-at="2024-10-16T13:52:22 BDT" name="OpenCart Test Cases" finished-at="2024-10-16T13:52:52 BDT" duration-ms="29813">
+      <class name="AllTests.RegisterAuth">
+        <test-method is-config="true" signature="setup()[pri:0, instance:AllTests.RegisterAuth@17a7f733]" started-at="2024-10-16T13:52:22 BDT" name="setup" finished-at="2024-10-16T13:52:26 BDT" duration-ms="4052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySearchFieldValidInputs()[pri:1, instance:AllTests.Search@623a8092]" started-at="2024-10-14T14:26:25 BDT" name="verifySearchFieldValidInputs" finished-at="2024-10-14T14:26:25 BDT" duration-ms="387" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryFields()[pri:1, instance:AllTests.RegisterAuth@17a7f733]" started-at="2024-10-16T13:52:26 BDT" name="verifyRegisterWithMandatoryFields" finished-at="2024-10-16T13:52:27 BDT" duration-ms="1120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllTests.RegisterAuth@17a7f733]" started-at="2024-10-16T13:52:27 BDT" name="tearDown" finished-at="2024-10-16T13:52:27 BDT" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:AllTests.RegisterAuth@17a7f733]" started-at="2024-10-16T13:52:27 BDT" name="setup" finished-at="2024-10-16T13:52:29 BDT" duration-ms="2123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithAllFields()[pri:2, instance:AllTests.RegisterAuth@17a7f733]" started-at="2024-10-16T13:52:29 BDT" name="verifyLoginWithAllFields" finished-at="2024-10-16T13:52:30 BDT" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllTests.RegisterAuth@17a7f733]" started-at="2024-10-16T13:52:30 BDT" name="tearDown" finished-at="2024-10-16T13:52:30 BDT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:AllTests.RegisterAuth@17a7f733]" started-at="2024-10-16T13:52:30 BDT" name="setup" finished-at="2024-10-16T13:52:32 BDT" duration-ms="2101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterLoginWithExistingEmail()[pri:3, instance:AllTests.RegisterAuth@17a7f733]" started-at="2024-10-16T13:52:32 BDT" name="verifyRegisterLoginWithExistingEmail" finished-at="2024-10-16T13:52:33 BDT" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterLoginWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllTests.RegisterAuth@17a7f733]" started-at="2024-10-16T13:52:33 BDT" name="tearDown" finished-at="2024-10-16T13:52:34 BDT" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:AllTests.RegisterAuth@17a7f733]" started-at="2024-10-16T13:52:34 BDT" name="setup" finished-at="2024-10-16T13:52:36 BDT" duration-ms="2001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterAccWithoutAnyDetails()[pri:4, instance:AllTests.RegisterAuth@17a7f733]" started-at="2024-10-16T13:52:36 BDT" name="verifyRegisterAccWithoutAnyDetails" finished-at="2024-10-16T13:52:36 BDT" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccWithoutAnyDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllTests.RegisterAuth@17a7f733]" started-at="2024-10-16T13:52:36 BDT" name="tearDown" finished-at="2024-10-16T13:52:36 BDT" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AllTests.RegisterAuth -->
+      <class name="AllTests.Search">
+        <test-method is-config="true" signature="setup()[pri:0, instance:AllTests.Search@68e965f5]" started-at="2024-10-16T13:52:45 BDT" name="setup" finished-at="2024-10-16T13:52:47 BDT" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchFieldValidInputs()[pri:1, instance:AllTests.Search@68e965f5]" started-at="2024-10-16T13:52:47 BDT" name="verifySearchFieldValidInputs" finished-at="2024-10-16T13:52:47 BDT" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchFieldValidInputs -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllTests.Search@623a8092]" started-at="2024-10-14T14:26:25 BDT" name="tearDown" finished-at="2024-10-14T14:26:25 BDT" duration-ms="158" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllTests.Search@68e965f5]" started-at="2024-10-16T13:52:47 BDT" name="tearDown" finished-at="2024-10-16T13:52:47 BDT" duration-ms="101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:AllTests.Search@623a8092]" started-at="2024-10-14T14:26:25 BDT" name="setup" finished-at="2024-10-14T14:26:27 BDT" duration-ms="1915" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:AllTests.Search@68e965f5]" started-at="2024-10-16T13:52:47 BDT" name="setup" finished-at="2024-10-16T13:52:49 BDT" duration-ms="1736" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySearchFieldInvalidInputs()[pri:2, instance:AllTests.Search@623a8092]" started-at="2024-10-14T14:26:27 BDT" name="verifySearchFieldInvalidInputs" finished-at="2024-10-14T14:26:27 BDT" duration-ms="276" status="PASS">
+        <test-method signature="verifySearchFieldInvalidInputs()[pri:2, instance:AllTests.Search@68e965f5]" started-at="2024-10-16T13:52:49 BDT" name="verifySearchFieldInvalidInputs" finished-at="2024-10-16T13:52:49 BDT" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchFieldInvalidInputs -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllTests.Search@623a8092]" started-at="2024-10-14T14:26:27 BDT" name="tearDown" finished-at="2024-10-14T14:26:28 BDT" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllTests.Search@68e965f5]" started-at="2024-10-16T13:52:49 BDT" name="tearDown" finished-at="2024-10-16T13:52:50 BDT" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:AllTests.Search@623a8092]" started-at="2024-10-14T14:26:28 BDT" name="setup" finished-at="2024-10-14T14:26:29 BDT" duration-ms="1845" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:AllTests.Search@68e965f5]" started-at="2024-10-16T13:52:50 BDT" name="setup" finished-at="2024-10-16T13:52:51 BDT" duration-ms="1654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySearchFieldNullInputs()[pri:3, instance:AllTests.Search@623a8092]" started-at="2024-10-14T14:26:29 BDT" name="verifySearchFieldNullInputs" finished-at="2024-10-14T14:26:30 BDT" duration-ms="259" status="PASS">
+        <test-method signature="verifySearchFieldNullInputs()[pri:3, instance:AllTests.Search@68e965f5]" started-at="2024-10-16T13:52:51 BDT" name="verifySearchFieldNullInputs" finished-at="2024-10-16T13:52:51 BDT" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchFieldNullInputs -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllTests.Search@623a8092]" started-at="2024-10-14T14:26:30 BDT" name="tearDown" finished-at="2024-10-14T14:26:30 BDT" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllTests.Search@68e965f5]" started-at="2024-10-16T13:52:51 BDT" name="tearDown" finished-at="2024-10-16T13:52:52 BDT" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- AllTests.Search -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="AllTests.OpencartLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:AllTests.OpencartLogin@76f2bbc1]" started-at="2024-10-16T13:52:36 BDT" name="setup" finished-at="2024-10-16T13:52:38 BDT" duration-ms="2074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin()[pri:1, instance:AllTests.OpencartLogin@76f2bbc1]" started-at="2024-10-16T13:52:38 BDT" name="verifyLogin" finished-at="2024-10-16T13:52:39 BDT" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllTests.OpencartLogin@76f2bbc1]" started-at="2024-10-16T13:52:39 BDT" name="tearDown" finished-at="2024-10-16T13:52:39 BDT" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:AllTests.OpencartLogin@76f2bbc1]" started-at="2024-10-16T13:52:39 BDT" name="setup" finished-at="2024-10-16T13:52:41 BDT" duration-ms="2037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginInvalidCreds()[pri:2, instance:AllTests.OpencartLogin@76f2bbc1]" started-at="2024-10-16T13:52:41 BDT" name="verifyLoginInvalidCreds" finished-at="2024-10-16T13:52:42 BDT" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginInvalidCreds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllTests.OpencartLogin@76f2bbc1]" started-at="2024-10-16T13:52:42 BDT" name="tearDown" finished-at="2024-10-16T13:52:42 BDT" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:AllTests.OpencartLogin@76f2bbc1]" started-at="2024-10-16T13:52:42 BDT" name="setup" finished-at="2024-10-16T13:52:44 BDT" duration-ms="2028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginInvalidPass()[pri:3, instance:AllTests.OpencartLogin@76f2bbc1]" started-at="2024-10-16T13:52:44 BDT" name="verifyLoginInvalidPass" finished-at="2024-10-16T13:52:45 BDT" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginInvalidPass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllTests.OpencartLogin@76f2bbc1]" started-at="2024-10-16T13:52:45 BDT" name="tearDown" finished-at="2024-10-16T13:52:45 BDT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AllTests.OpencartLogin -->
+    </test> <!-- OpenCart Test Cases -->
+  </suite> <!-- OpenCart Automation Suite -->
 </testng-results>

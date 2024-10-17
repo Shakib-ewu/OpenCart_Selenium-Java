@@ -12,16 +12,20 @@ import org.testng.Assert;
 
 public class OpencartLogin extends Base {
     WebDriver driver;
+    Base base;
     
     // Method to initialize the browser and navigate to the login page
     @BeforeMethod
     public void setup() {
-        driver = initializeBrowserandOpenURL("chrome");
+    	base = new Base();
+    	driver = base.initializeBrowserAndOpenURL(); 
+        //driver = initializeBrowserandOpenURL("chrome");
         driver.findElement(By.xpath("//span[text()='My Account']")).click();
         driver.findElement(By.linkText("Login")).click();
     }
     
-    // Method to quit the browser after each test
+
+	// Method to quit the browser after each test
     @AfterMethod
     public void tearDown() {
         driver.quit();

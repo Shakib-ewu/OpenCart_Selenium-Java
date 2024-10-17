@@ -11,6 +11,7 @@ import BaseClass.Base;
 
 public class RegisterAuth extends Base {
     WebDriver driver;
+    Base base;
 
     // For email generator
     public String generateRandomEmail() {
@@ -25,13 +26,16 @@ public class RegisterAuth extends Base {
 
     @BeforeMethod
     public void setup() {
-        driver = initializeBrowserandOpenURL("chrome");
+    	base = new Base();
+    	driver = base.initializeBrowserAndOpenURL(); 
         // text() is used to target the text content inside an element (e.g., text()='My Account')
         driver.findElement(By.xpath("//span[text()='My Account']")).click();
         driver.findElement(By.linkText("Register")).click();
     }
 
-    @Test(priority = 1)
+
+
+	@Test(priority = 1)
     public void verifyRegisterWithMandatoryFields() {
         driver.findElement(By.id("input-firstname")).sendKeys("Sakib");
         driver.findElement(By.id("input-lastname")).sendKeys("Sarkar");
